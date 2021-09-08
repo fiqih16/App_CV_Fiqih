@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/raw_bg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIQIH"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/apple"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/ic_baseline_location_on_24"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center_vertical"
+                        android:text="Cikarang, Indonesia"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/ic_baseline_work_24"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center_vertical"
+                        android:text="Content Writer"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/ic_baseline_link_24"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center_vertical"
+                        android:text="https://pencarijob.com"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="40dp"
+                android:textSize="10sp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/teal_700"
+                android:text="Follow Me"
+                android:textAllCaps="true"/>
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="30dp"
+                android:textSize="10sp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/teal_700"
+                android:text="Contact Me"
+                android:textAllCaps="true"/>
+            
+        </LinearLayout>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:padding="8dp">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABOUT ME :"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/bio"/>
+
+            <TextView
+                android:id="@+id/isibio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bio"
+                android:text="Saya adalah individu yang memiliki minat besar dibidang Teknologi Informasi. Saya dapat membantu perusahaan yang Bapak/Ibu pimpin. Dengan etos dan semangat kerja yang saya miliki dan tentunya dengan teamwork yang baik"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/clients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CLIENTS :"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:src="@drawable/msglow" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:src="@drawable/kaskus" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:src="@drawable/kompas" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
