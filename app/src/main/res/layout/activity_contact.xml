@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Contact">
+
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/contact1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACT"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_baseline_email_24"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="Fiqih1666@gmail.com"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_baseline_location_on_24"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="Cikarang, Indonesia"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_baseline_local_phone_24"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="0813-2118-4032"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_baseline_link_24"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="www.pencarijob.com"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/bio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SKILL"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"></TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/html"></ImageView>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/css"></ImageView>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/laravel"></ImageView>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/firebase"></ImageView>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/mysql"></ImageView>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/kotlin"></ImageView>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/bio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"></TextView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:src="@drawable/english1"></ImageView>
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:src="@drawable/indonesia1"></ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

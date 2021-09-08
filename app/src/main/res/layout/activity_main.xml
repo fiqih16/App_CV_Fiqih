@@ -115,6 +115,31 @@
 
                 </LinearLayout>
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="0dp"
+                    android:id="@+id/infoDetail"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold|italic"
+                        android:layout_gravity="center_vertical"
+                        android:text="Info detail"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+                </LinearLayout>
+
             </LinearLayout>
             
         </LinearLayout>
@@ -136,6 +161,7 @@
                 android:textColor="@color/white"
                 android:backgroundTint="@color/teal_700"
                 android:text="Follow Me"
+                android:id="@+id/FollowMe"
                 android:textAllCaps="true"/>
 
             <com.google.android.material.button.MaterialButton
@@ -147,7 +173,8 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:backgroundTint="@color/teal_700"
-                android:text="Contact Me"
+                android:text="Contact"
+                android:id="@+id/BtnContact"
                 android:textAllCaps="true"/>
             
         </LinearLayout>
