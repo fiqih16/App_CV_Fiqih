@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UI_CV_Fiqih">
         <activity
+            android:name=".DashboardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true" />
+        <activity
             android:name=".Contact"
             android:exported="true" />
         <activity

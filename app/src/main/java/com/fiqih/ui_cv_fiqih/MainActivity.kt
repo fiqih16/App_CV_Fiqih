@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnContact.setOnClickListener {
-            openContact("https://api.whatsapp.com/send?phone=081321184032")
+            openContact("https://api.whatsapp.com/send?phone=6281321184032")
         }
     }
 
